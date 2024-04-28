@@ -8,4 +8,4 @@ load_dotenv()
 MONGO_URL = os.environ.get('MONGO_DB')
 client = AsyncIOMotorClient(MONGO_URL, tlsCAFile = certifi.where())
 database = client['anahuac2024']
-collection = database['libreria']
+collection = database['libros']
