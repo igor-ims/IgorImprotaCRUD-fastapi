@@ -4,6 +4,7 @@ pydantic
 certifi
 uvicorn
 gunicorn
+uvloop
 websockets
 wrapt
 python-dotenv
